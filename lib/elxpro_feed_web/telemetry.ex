@@ -1,4 +1,7 @@
 defmodule ElxproFeedWeb.Telemetry do
+  @moduledoc """
+    nodoc
+  """
   use Supervisor
   import Telemetry.Metrics
 
