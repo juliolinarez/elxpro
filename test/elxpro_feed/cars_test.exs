@@ -35,7 +35,12 @@ defmodule ElxproFeed.CarsTest do
 
     test "update_car/2 with valid data updates the car" do
       car = car_fixture()
-      update_attrs = %{age: 43, description: "some updated description", name: "some updated name"}
+
+      update_attrs = %{
+        age: 43,
+        description: "some updated description",
+        name: "some updated name"
+      }
 
       assert {:ok, %Car{} = car} = Cars.update_car(car, update_attrs)
       assert car.age == 43

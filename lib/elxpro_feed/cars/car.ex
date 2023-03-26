@@ -1,4 +1,7 @@
 defmodule ElxproFeed.Cars.Car do
+  @moduledoc """
+    nodoc
+  """
   use Ecto.Schema
   import Ecto.Changeset
 

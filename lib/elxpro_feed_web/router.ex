@@ -19,7 +19,6 @@ defmodule ElxproFeedWeb.Router do
 
     get "/", PageController, :home
 
-
     live "/cars", CarLive.Index, :index
     live "/cars/new", CarLive.Index, :new
     live "/cars/:id/edit", CarLive.Index, :edit
