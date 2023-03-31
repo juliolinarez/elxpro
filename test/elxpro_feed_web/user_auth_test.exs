@@ -1,9 +1,9 @@
 defmodule ElxproFeedWeb.UserAuthTest do
   use ElxproFeedWeb.ConnCase, async: true
 
-  alias Phoenix.LiveView
   alias ElxproFeed.Accounts
   alias ElxproFeedWeb.UserAuth
+  alias Phoenix.LiveView
   import ElxproFeed.AccountsFixtures
 
   @remember_me_cookie "_elxpro_feed_web_user_remember_me"
