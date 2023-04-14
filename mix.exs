@@ -36,7 +36,7 @@ defmodule ElxproFeed.MixProject do
 
   # Specifies your project dependencies.
   #
-  # Type `mix help deps` for examples and options.
+  # Type `mix help deps` for examples and  options.
   defp deps do
     [
       {:bcrypt_elixir, "~> 3.0"},
