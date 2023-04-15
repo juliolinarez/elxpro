@@ -42,8 +42,8 @@ defmodule ElxproFeed.MixProject do
       {:bcrypt_elixir, "~> 3.0"},
       {:phoenix, "~> 1.7.2"},
       {:phoenix_ecto, "~> 4.4"},
-      {:ecto_sql, "~> 3.6"},
-      {:postgrex, ">= 0.0.0"},
+      {:ecto_sql, "~> 3.10.1"},
+      {:postgrex, ">= 0.17.0"},
       {:phoenix_html, "~> 3.3"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_view, "~> 0.18.16"},
@@ -59,9 +59,9 @@ defmodule ElxproFeed.MixProject do
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
-      {:excoveralls, "~> 0.10", only: :test},
-      {:sobelow, "~> 0.12.1", only: :dev},
-      {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
+      {:excoveralls, "~> 0.16.1", only: :test},
+      {:sobelow, "~> 0.12.2", only: :dev},
+      {:dialyxir, "~> 1.3.0", only: [:dev], runtime: false},
       {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false}
     ]
   end
