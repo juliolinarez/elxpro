@@ -6,9 +6,7 @@ jobs:
   check_security:
     runs-on: ubuntu-latest
     strategy: 
-      matrix: 
-        elixir: [1.14]
-        otp: [25]
+      matrix: ${{ include 'matrix.yml' }}
     steps:
       - uses: actions/checkout@v2
       - uses: erlef/setup-elixir@v1
