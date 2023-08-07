@@ -60,7 +60,7 @@ defmodule ElxproFeed.MixProject do
       {:plug_cowboy, "~> 2.5"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.10", only: :test},
-      {:sobelow, "~> 0.12.1", only: :dev},
+      {:sobelow, "~> 0.13.0", only: :dev},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
       {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false}
     ]
